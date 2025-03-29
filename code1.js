@@ -56,14 +56,14 @@ gdjs.WhyCode.GDPngDescObjects2= [];
 gdjs.WhyCode.GDPngDescObjects3= [];
 
 
-gdjs.WhyCode.userFunc0xb152e0 = function GDJSInlineCode(runtimeScene) {
+gdjs.WhyCode.userFunc0xb845f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener('contextmenu', (event) => {
     event.preventDefault();
 });
 
 };
-gdjs.WhyCode.userFunc0xb15360 = function GDJSInlineCode(runtimeScene) {
+gdjs.WhyCode.userFunc0xb846b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener('touchstart', (e) => {
     e.preventDefault();
@@ -79,7 +79,7 @@ gdjs.WhyCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.WhyCode.userFunc0xb152e0(runtimeScene);
+gdjs.WhyCode.userFunc0xb845f8(runtimeScene);
 
 }
 
@@ -87,7 +87,7 @@ gdjs.WhyCode.userFunc0xb152e0(runtimeScene);
 {
 
 
-gdjs.WhyCode.userFunc0xb15360(runtimeScene);
+gdjs.WhyCode.userFunc0xb846b0(runtimeScene);
 
 }
 

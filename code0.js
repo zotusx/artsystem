@@ -150,7 +150,7 @@ gdjs.MainCode.GDGallery3Objects3= [];
 gdjs.MainCode.GDGallery3Objects4= [];
 
 
-gdjs.MainCode.userFunc0xb12118 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainCode.userFunc0xc061c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener('touchstart', (e) => {
     e.preventDefault();
@@ -178,7 +178,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.MainCode.userFunc0xb12118(runtimeScene);
+gdjs.MainCode.userFunc0xc061c0(runtimeScene);
 
 }
 
@@ -190,10 +190,9 @@ gdjs.MainCode.userFunc0xb12118(runtimeScene);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) >= 640;
+isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) <= 640;
 if (isConditionTrue_0) {
-{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtTools.camera.setCameraY(runtimeScene, 640, "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, 640, "", 0);
 }}
 
 }
@@ -204,10 +203,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) <= 1100;
+isConditionTrue_0 = gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) >= 1050;
 if (isConditionTrue_0) {
-{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtTools.camera.setCameraY(runtimeScene, 1100, "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, 1050, "", 0);
 }}
 
 }
@@ -323,7 +321,7 @@ gdjs.MainCode.eventsList2(runtimeScene);} //End of subevents
 
 };gdjs.MainCode.mapOfGDgdjs_9546MainCode_9546GDHomeButtonObjects2ObjectsGDgdjs_9546MainCode_9546GDAboutButtonObjects2ObjectsGDgdjs_9546MainCode_9546GDWhyContainersButtonObjects2ObjectsGDgdjs_9546MainCode_9546GDModelsButtonObjects2Objects = Hashtable.newFrom({"HomeButton": gdjs.MainCode.GDHomeButtonObjects2, "AboutButton": gdjs.MainCode.GDAboutButtonObjects2, "WhyContainersButton": gdjs.MainCode.GDWhyContainersButtonObjects2, "ModelsButton": gdjs.MainCode.GDModelsButtonObjects2});
 gdjs.MainCode.mapOfGDgdjs_9546MainCode_9546GDHomeButtonObjects1ObjectsGDgdjs_9546MainCode_9546GDAboutButtonObjects1ObjectsGDgdjs_9546MainCode_9546GDWhyContainersButtonObjects1ObjectsGDgdjs_9546MainCode_9546GDModelsButtonObjects1Objects = Hashtable.newFrom({"HomeButton": gdjs.MainCode.GDHomeButtonObjects1, "AboutButton": gdjs.MainCode.GDAboutButtonObjects1, "WhyContainersButton": gdjs.MainCode.GDWhyContainersButtonObjects1, "ModelsButton": gdjs.MainCode.GDModelsButtonObjects1});
-gdjs.MainCode.userFunc0xa05d28 = function GDJSInlineCode(runtimeScene) {
+gdjs.MainCode.userFunc0xaea940 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener("DOMContentLoaded", function(e){
   setInterval(function(){
@@ -337,7 +335,7 @@ gdjs.MainCode.eventsList4 = function(runtimeScene) {
 {
 
 
-gdjs.MainCode.userFunc0xa05d28(runtimeScene);
+gdjs.MainCode.userFunc0xaea940(runtimeScene);
 
 }
 
@@ -1088,8 +1086,9 @@ gdjs.copyArray(runtimeScene.getObjects("NameModel"), gdjs.MainCode.GDNameModelOb
     gdjs.MainCode.GDNameModelObjects1[i].getBehavior("Text").setText(gdjs.MainCode.GDNameModelObjects1[i].getVariables().getFromIndex(0).getAsString());
 }
 }{for(var i = 0, len = gdjs.MainCode.GDModelObjects1.length ;i < len;++i) {
-    gdjs.MainCode.GDModelObjects1[i].getBehavior("Resizable").setSize(688, 387);
+    gdjs.MainCode.GDModelObjects1[i].getBehavior("Resizable").setSize(310, 175);
 }
+}{gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.func(runtimeScene, 0, "", "vertical", "Left", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
