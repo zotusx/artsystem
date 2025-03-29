@@ -1,9 +1,9 @@
 {
-  "name": "Арт Систем",
-  "short_name": "Арт Систем",
+  "name": "Арт Систем - Mobile",
+  "short_name": "Арт Систем - Mobile",
   "id": "com.example.gamename",
   "description": "",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
