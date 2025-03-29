@@ -65,14 +65,14 @@ gdjs.ModelCode.GDXLObjects2= [];
 gdjs.ModelCode.GDXLObjects3= [];
 
 
-gdjs.ModelCode.userFunc0xbfa020 = function GDJSInlineCode(runtimeScene) {
+gdjs.ModelCode.userFunc0xc77858 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener('contextmenu', (event) => {
     event.preventDefault();
 });
 
 };
-gdjs.ModelCode.userFunc0xbfa0d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.ModelCode.userFunc0xc778d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 document.addEventListener('touchstart', (e) => {
     e.preventDefault();
@@ -88,7 +88,7 @@ gdjs.ModelCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ModelCode.userFunc0xbfa020(runtimeScene);
+gdjs.ModelCode.userFunc0xc77858(runtimeScene);
 
 }
 
@@ -96,7 +96,7 @@ gdjs.ModelCode.userFunc0xbfa020(runtimeScene);
 {
 
 
-gdjs.ModelCode.userFunc0xbfa0d8(runtimeScene);
+gdjs.ModelCode.userFunc0xc778d8(runtimeScene);
 
 }
 
